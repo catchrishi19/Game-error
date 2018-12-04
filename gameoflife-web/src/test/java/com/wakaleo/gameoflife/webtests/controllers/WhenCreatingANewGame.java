@@ -15,11 +15,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class WhenCreatingANewGame {
 
-    GameController controller = null;
+    //GameController controller = null;
 
     @Before
     public void initializeController() {
-        controller = new GameController();
+        //controller = new GameController();
     }
 
     @Test
